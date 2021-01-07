@@ -43,10 +43,48 @@ meaning something like this --> /api/customers
 
 | Http Method    | CRUD Actions  |
 | :------------- | :----------:  |
-|  POST          | Create a new Entity   |
-|  GET              |    Read a list of entities or a single entity                   |
-|     PUT           |    Update a existing entit                   |
-|        DELETE        |   delete an existing entity                    |
+|  POST          | Create a new Entity                         |
+|  GET           | Read a list of entities or a single entity  |
+|  PUT           | Update a existing entit                     |
+|  DELETE        | Delete an existing entity                   |
+
+This means that here we have our full crud support via the http method and also the best practice in designing a restufll spi
+
+Crud Endpoint Examples
+
+| Http Method    | EndPoint                                     |CRUD Action                                  |
+| :------------- | :------------------------------------:       | :------------------------------------:      |
+|  POST          | /api/customers                               |Create a new customer                        |
+|  GET           | /api/customers                               |Read a list of customers                     |
+|  GET           | /api/customers/{customerId}                  |Read a single customer                       |
+|  PUT           | /api/customers                               |Update an existing customer                  |
+|  DELETE        | /api/customers/{customerId}                  |Delete an existing customer                  |
+
+NB!! -  for the POST and PUT methods we will send the customer data as JSON in the request message body 
+We will see this later on where we will use postman to complete these two requests.
+
+Now lets look at the ANTI- PATTERNS
+
+These are things you dont do.. These are rest anti patterns , bad practice 
+NEVER INCLUDE THE ACTIONS IN THE ENDPOINT
+
+| Http Method    | EndPoint                                     |CRUD Action                                  |
+| :------------- | :------------------------------------:       | :------------------------------------:      |
+|  POST          | /api/customersList                           |Create a new customer                        |
+|  GET           | /api/addCustomers                            |Read a list of customers                     |
+|  PUT           | /api/updateCustomers                         |Update an existing customer                  |
+|  DELETE        | /api/deleteCustomer                          |Delete an existing customer                  |
+
+Instead use Http methods to assign actions as mentioned below and here you can see we dont place behaviour in the endpoint method
+As you can see the entity / resource name has no actions listed in the endpoints
+
+| Http Method    | EndPoint                                     |CRUD Action                                  |
+| :------------- | :------------------------------------:       | :------------------------------------:      |
+|  POST          | /api/customers                               |Create a new customer                        |
+|  GET           | /api/customers                               |Read a list of customers                     |
+|  GET           | /api/customers/{customerId}                  |Read a single customer                       |
+|  PUT           | /api/customers                               |Update an existing customer                  |
+|  DELETE        | /api/customers/{customerId}                  |Delete an existing customer                  |
 
 
 
