@@ -18,7 +18,7 @@ Lets sketch a Scenario:
 
 You are given a task to create a rest api for a customer relationship management system.
 
-# <<<<<<< STEP 1 >>>>>>> REVIEW THE API REQUIREMENTS
+## <<<<<<< STEP 1 >>>>>>> REVIEW THE API REQUIREMENTS
 
 So the clients of the CRM system should be able to do the following:
 
@@ -30,7 +30,7 @@ So the clients of the CRM system should be able to do the following:
 
 *************Based on the above we will have full crud support via the rest api
 
-# <<<<<<< STEP 2 >>>>>>> IDENTIFY THE MAIN RESOURCE / ENTITY
+## <<<<<<< STEP 2 >>>>>>> IDENTIFY THE MAIN RESOURCE / ENTITY
 - To identify the main resource / entity, look for the most prominent noun
 
 for the purpose of this project --> our main entity here is the "customer"
@@ -39,7 +39,7 @@ Now convention is to use plural form of resource for example like /entity:custom
 
 meaning something like this --> /api/customers
 
-# <<<<<<< STEP 3 >>>>>>> USE HTTP METHODS TO ASSIGN ACTION ON RESOURCE
+## <<<<<<< STEP 3 >>>>>>> USE HTTP METHODS TO ASSIGN ACTION ON RESOURCE
 
 | Http Method    | CRUD Actions  |
 | :------------- | :----------:  |
@@ -63,7 +63,7 @@ Crud Endpoint Examples
 NB!! -  for the POST and PUT methods we will send the customer data as JSON in the request message body 
 We will see this later on where we will use postman to complete these two requests.
 
-# Now lets look at the ANTI- PATTERNS
+## Now lets look at the ANTI- PATTERNS
 
 These are things you dont do.. These are rest anti patterns , bad practice 
 NEVER INCLUDE THE ACTIONS IN THE ENDPOINT
