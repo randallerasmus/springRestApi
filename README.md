@@ -39,12 +39,9 @@ meaning something like this --> /api/customers
 
 <<<<<<< STEP 3 >>>>>>> USE HTTP METHODS TO ASSIGN ACTION ON RESOURCE
 
-| Http Method    |         CRUD Actions        |
-| :------------- | :----------: | -----------: |
-|                |                             |
-|                |                             |
+| Http Method    | CRUD Actions  |
+| :------------- | :----------:  |
+|                |               |
+|                |               |
 
-| Syntax      | Description|
-| :---        |    :----:  |
-| Header      | Title      |
-| Paragraph   | Text       |
+
