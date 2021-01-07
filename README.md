@@ -19,6 +19,7 @@ Lets sketch a Scenario:
 You are given a task to create a rest api for a customer relationship management system.
 
 <<<<<<< STEP 1 >>>>>>> REVIEW THE API REQUIREMENTS
+
 So the clients of the CRM system should be able to do the following:
 
 - get a list of customers
