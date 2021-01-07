@@ -26,7 +26,7 @@ So the clients of the CRM system should be able to do the following:
 - Update a customer
 - Delete a customer
 
-*************Based on the above we will have full crud support via the rest api**************************
+*************Based on the above we will have full crud support via the rest api
 
 <<<<<<< STEP 2 >>>>>>> IDENTIFY THE MAIN RESOURCE / ENTITY
 - To identify the main resource / entity, look for the most prominent noun
@@ -44,3 +44,7 @@ meaning something like this --> /api/customers
 |                |                             |
 |                |                             |
 
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
