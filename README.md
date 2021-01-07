@@ -43,7 +43,10 @@ meaning something like this --> /api/customers
 
 | Http Method    | CRUD Actions  |
 | :------------- | :----------:  |
-|                |               |
-|                |               |
+|  POST          | Create a new Entity   |
+|  GET              |    Read a list of entities or a single entity                   |
+|     PUT           |    Update a existing entit                   |
+|        DELETE        |   delete an existing entity                    |
+
 
 
