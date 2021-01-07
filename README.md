@@ -1,5 +1,6 @@
-# springRestApi
-Rest API Design
+# DESIGNING A RESTFULL API
+
+This explains the simple process of designing a restfull api
 
 When Designing A Rest Api there are a few questions that we need to ask 
 1.  Who will use our rest API?
