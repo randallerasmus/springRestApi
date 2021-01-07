@@ -52,13 +52,13 @@ This means that here we have our full crud support via the http method and also 
 
 Crud Endpoint Examples
 
-| Http Method    | EndPoint                                     |CRUD Action                                  |
-| :------------- | :------------------------------------:       | :------------------------------------:      |
-|  POST          | /api/customers                               |Create a new customer                        |
-|  GET           | /api/customers                               |Read a list of customers                     |
-|  GET           | /api/customers/{customerId}                  |Read a single customer                       |
-|  PUT           | /api/customers                               |Update an existing customer                  |
-|  DELETE        | /api/customers/{customerId}                  |Delete an existing customer                  |
+| Http Method    | EndPoint                               |CRUD Action                                  |
+| :------------- | :------------------------------------: | :------------------------------------:      |
+|  POST          | /api/customers                         |Create a new customer                        |
+|  GET           | /api/customers                         |Read a list of customers                     |
+|  GET           | /api/customers/{customerId}            |Read a single customer                       |
+|  PUT           | /api/customers                         |Update an existing customer                  |
+|  DELETE        | /api/customers/{customerId}            |Delete an existing customer                  |
 
 NB!! -  for the POST and PUT methods we will send the customer data as JSON in the request message body 
 We will see this later on where we will use postman to complete these two requests.
